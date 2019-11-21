@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Lato;
+	background-color: #191919;
+}
+
+.mainh1{
+  position: relative;
+  color: cadetblue;
+  text-align: center;
+
+}
+
+.mainh1:after{
+  content: '';
+  position: inherit;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.mainh1:hover:after{
+  position: inherit;
+  width: 22%;
+  left: 39%;
+  background: #fff;
+}
+
+.nav {
+	color: white;
+}
